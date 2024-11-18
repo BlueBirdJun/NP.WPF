@@ -1,7 +1,7 @@
 using System.Globalization;
 using System.Windows;
 using System.Windows.Data;
-namespace Leagueoflegends.Support.Local.Converters;
+namespace NP.Support.Local.Converters;
 
 public class BooleanToVisibilityConverter : IValueConverter
 {

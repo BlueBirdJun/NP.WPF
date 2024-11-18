@@ -2,7 +2,7 @@ using System.Globalization;
 using System.Windows.Data;
 using System.Windows.Media;
 
-namespace Leagueoflegends.Support.Local.Converters;
+namespace NP.Support.Local.Converters;
 
 public class MatchResultToColorConverter : IValueConverter
 {

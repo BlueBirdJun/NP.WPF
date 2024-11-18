@@ -1,11 +1,11 @@
 using System.Globalization;
 using System.Windows.Data;
 
-namespace Leagueoflegends.Support.Local.Converters;
+namespace NP.Support.Local.Converters;
 
 public class SpellNameToImageConverter : IValueConverter
 {
-    private const string BaseImagePath = "/Leagueoflegends.Support;component/Images/";
+    private const string BaseImagePath = "/NP.Support;component/Images/";
 
     public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
     {

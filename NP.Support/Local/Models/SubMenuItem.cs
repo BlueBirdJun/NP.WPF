@@ -1,6 +1,6 @@
 using Jamesnet.Core;
 
-namespace Leagueoflegends.Support.Local.Models;
+namespace NP.Support.Local.Models;
 
 public class SubMenuItem : ViewModelBase
 {

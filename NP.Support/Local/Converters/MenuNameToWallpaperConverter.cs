@@ -1,7 +1,7 @@
 using System.Globalization;
 using System.Windows.Data;
 
-namespace Leagueoflegends.Support.Local.Converters;
+namespace NP.Support.Local.Converters;
 
 public class MenuNameToWallpaperConverter : IValueConverter
 {
@@ -21,9 +21,9 @@ public class MenuNameToWallpaperConverter : IValueConverter
                 case "SHOP": fileName = "wallpaper-leesin.png"; break;
                 case "STORE": fileName = "wallpaper-maokai.jpg"; break;
             }
-            return $"/Leagueoflegends.Support;component/Images/{fileName}";
+            return $"/NP.Support;component/Images/{fileName}";
         }
-        return "/Leagueoflegends.Support;component/Images/wallpaper-rucian.png";
+        return "/NP.Support;component/Images/wallpaper-rucian.png";
     }
 
     public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

@@ -1,11 +1,11 @@
 using System.Globalization;
 using System.Windows.Data;
 
-namespace Leagueoflegends.Support.Local.Converters;
+namespace NP.Support.Local.Converters;
 
 public class ItemNameToImageConverter : IValueConverter
 {
-    private const string BaseImagePath = "/Leagueoflegends.Support;component/Images/Items/";
+    private const string BaseImagePath = "/NP.Support;component/Images/Items/";
 
     private static readonly Dictionary<string, string> ItemNameToFileNameMap = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
     {

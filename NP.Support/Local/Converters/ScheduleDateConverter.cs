@@ -1,6 +1,6 @@
 using System.Globalization;
 using System.Windows.Data;
-namespace Leagueoflegends.Support.Local.Converters;
+namespace NP.Support.Local.Converters;
 
 public class ScheduleDateConverter : IValueConverter
 {

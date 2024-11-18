@@ -1,11 +1,11 @@
 using System.Globalization;
 using System.Windows.Data;
 
-namespace Leagueoflegends.Support.Local.Converters;
+namespace NP.Support.Local.Converters;
 
 public class ChampionNameToThumbnailConverter : IValueConverter
 {
-    private const string BaseImagePath = "/Leagueoflegends.Support;component/Images/thumbnails/";
+    private const string BaseImagePath = "/NP.Support;component/Images/thumbnails/";
 
     public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
     {

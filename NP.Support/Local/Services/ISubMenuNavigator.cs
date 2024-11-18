@@ -1,6 +1,6 @@
-using Leagueoflegends.Support.Local.Models;
+using NP.Support.Local.Models;
 
-namespace Leagueoflegends.Support.Local.Services;
+namespace NP.Support.Local.Services;
 
 public interface ISubMenuNavigator
 {

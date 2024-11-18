@@ -1,6 +1,6 @@
-using Leagueoflegends.Support.Local.Models;
+using NP.Support.Local.Models;
 
-namespace Leagueoflegends.Support.Local.Datas;
+namespace NP.Support.Local.Datas;
 
 public interface IRecentDataLoader
 {
