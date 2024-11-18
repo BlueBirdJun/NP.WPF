@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+        <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Page Include="App.xaml" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Jamesnet.Windows\Jamesnet.Windows.csproj" />
+        <ProjectReference Include="..\MG.Common\Daniel.Common.csproj" />
+        <ProjectReference Include="..\NP.Main\NP.Main.csproj" />
+        <ProjectReference Include="..\NP.Navigation\NP.Navigation.csproj" />
+        <ProjectReference Include="..\NP.Task1\NP.Task1.csproj" />
+    </ItemGroup>
+    
+</Project>
