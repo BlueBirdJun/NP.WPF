@@ -5,6 +5,7 @@ using NP.Main.Local.ViewModels;
 using NP.Main.Views;
 using NP.Menu.Local.ViewModels;
 using NP.Menu.Views;
+using NP.Support.Local.Services;
 using NP.Task1.Local.ViewModels;
 using NP.Task1.Views;
 
@@ -23,6 +24,10 @@ public class NPBootStrap : AppBootstrapper
 
 	protected override void RegisterDependencies()
 	{
+
+		
+
+
 		Container.RegisterSingleton<IView, MainContent>();
 		Container.RegisterSingleton<IView, MenuContent>();
 		Container.RegisterSingleton<IView, Task1Content>();

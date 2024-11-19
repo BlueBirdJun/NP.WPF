@@ -4,6 +4,7 @@
              xmlns:local="clr-namespace:NP.WPF"
              xmlns:syntax="http://schemas.lepo.co/wpfui/2022/xaml/syntax"
              xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+             xmlns:cnvts="clr-namespace:NP.Support.Local.Converters;assembly=NP.Support"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
@@ -15,7 +16,9 @@
              
             </ResourceDictionary.MergedDictionaries>
 
-           
+            <cnvts:BooleanToInverseConverter x:Key="BooleanToInverseConverter"/>
+            <cnvts:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+
         </ResourceDictionary>
 
     </Application.Resources>

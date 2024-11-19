@@ -10,22 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace NP.WPF;
+namespace NP.WPF.Local.Pages;
 /// <summary>
-/// MainWindow.xaml에 대한 상호 작용 논리
+/// SettingsPage.xaml에 대한 상호 작용 논리
 /// </summary>
-public partial class MainWindow : IWindow
+public partial class SettingsPage : Page
 {
-	public MainWindow()
+	public SettingsPage()
 	{
-		this.DataContext = new Local.Windows.MainWindowViewModel();
 		InitializeComponent();
-	}
-	private bool _isUserClosedPane;
-	private void MainWindow_OnSizeChanged(object sender, SizeChangedEventArgs e)
-	{
-	 
 	}
 }
