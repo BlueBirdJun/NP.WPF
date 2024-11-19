@@ -103,5 +103,8 @@
       <Resource Include="Assets\wpfui.png" />
       <Resource Include="Assets\wpfui_full.png" />
     </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Local\Pages\" />
+    </ItemGroup>
     
 </Project>
