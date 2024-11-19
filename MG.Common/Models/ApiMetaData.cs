@@ -9,7 +9,7 @@ namespace Daniel.Common.Models;
 
 public class ApiMetaData
 {
-    public string UrlPath { get; set; }
-    public HttpMethods httpmethod { get; set; }
-    public string Title { get; set; }
+    public string UrlPath { get; set; } = "";
+	public HttpMethods httpmethod { get; set; } = new();
+    public string Title { get; set; } = "";
 }

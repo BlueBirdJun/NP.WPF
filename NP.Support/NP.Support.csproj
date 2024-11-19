@@ -8,6 +8,10 @@
 	  <UseWPF>true</UseWPF>
 	  <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Screenshot_4.png" />
+  </ItemGroup>
    
 
         <ItemGroup>
@@ -17,8 +21,17 @@
 
         <ItemGroup>
           <Folder Include="Datas\" />
-          <Folder Include="Images\" />
-          <Folder Include="UI\" />
+          <Folder Include="Datas\" />
+        </ItemGroup>
+   
+
+        <ItemGroup>
+          <PackageReference Include="WPF-UI" Version="3.0.5" />
+        </ItemGroup>
+   
+
+        <ItemGroup>
+          <Resource Include="Images\Screenshot_4.png" />
         </ItemGroup>
         
 </Project>

@@ -8,10 +8,8 @@
     </PropertyGroup>
     <ItemGroup>
         <ProjectReference Include="..\Jamesnet.Windows\Jamesnet.Windows.csproj" />
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Local\ViewModels\" />
-      <Folder Include="Themes\Views\" />
+        <ProjectReference Include="..\MG.Common\Daniel.Common.csproj" />
+        <ProjectReference Include="..\NP.Support\NP.Support.csproj" />
     </ItemGroup>
 
 

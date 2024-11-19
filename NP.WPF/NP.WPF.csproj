@@ -16,7 +16,8 @@
         <ProjectReference Include="..\Jamesnet.Windows\Jamesnet.Windows.csproj" />
         <ProjectReference Include="..\MG.Common\Daniel.Common.csproj" />
         <ProjectReference Include="..\NP.Main\NP.Main.csproj" />
-        <ProjectReference Include="..\NP.Navigation\NP.Navigation.csproj" />
+        <ProjectReference Include="..\NP.Menu\NP.Menu.csproj" />
+        <ProjectReference Include="..\NP.Support\NP.Support.csproj" />
         <ProjectReference Include="..\NP.Task1\NP.Task1.csproj" />
     </ItemGroup>
     
