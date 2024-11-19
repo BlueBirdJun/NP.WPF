@@ -1,4 +1,6 @@
 ﻿using Jamesnet.Core;
+using NP.Home.Local.ViewModels;
+using NP.Home.Views;
 using NP.Main.Local.ViewModels;
 using NP.Main.Views;
 using NP.Menu.Local.ViewModels;
@@ -15,6 +17,8 @@ public class NPBootStrap : AppBootstrapper
 		ViewModelMapper.Register<MainContent, MainContentVM>();
 		ViewModelMapper.Register<MenuContent, MenuVM>();
 		ViewModelMapper.Register<Task1Content, Task1ContentVM>();
+		ViewModelMapper.Register<HomeContent, HomeContentVM>();
+
 	}
 
 	protected override void RegisterDependencies()
@@ -22,8 +26,10 @@ public class NPBootStrap : AppBootstrapper
 		Container.RegisterSingleton<IView, MainContent>();
 		Container.RegisterSingleton<IView, MenuContent>();
 		Container.RegisterSingleton<IView, Task1Content>();
+		Container.RegisterSingleton<IView, HomeContent>();
 
 		IView mainContent = Container.Resolve<MainContent>();
+		IView HomeContent = Container.Resolve<HomeContent>();
 
 		Layer.Mapping("MainLayer", mainContent);
 	}

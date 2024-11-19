@@ -10,15 +10,98 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <None Remove="Assets\geo_icons.png" />
+      <None Remove="Assets\Monaco\index.html" />
+      <None Remove="Assets\Monaco\min\vs\editor\editor.main.css" />
+      <None Remove="Assets\Monaco\min\vs\editor\editor.main.js" />
+      <None Remove="Assets\Monaco\min\vs\editor\editor.main.nls.de.js" />
+      <None Remove="Assets\Monaco\min\vs\editor\editor.main.nls.es.js" />
+      <None Remove="Assets\Monaco\min\vs\editor\editor.main.nls.fr.js" />
+      <None Remove="Assets\Monaco\min\vs\editor\editor.main.nls.it.js" />
+      <None Remove="Assets\Monaco\min\vs\editor\editor.main.nls.ja.js" />
+      <None Remove="Assets\Monaco\min\vs\editor\editor.main.nls.js" />
+      <None Remove="Assets\Monaco\min\vs\editor\editor.main.nls.ko.js" />
+      <None Remove="Assets\Monaco\min\vs\editor\editor.main.nls.ru.js" />
+      <None Remove="Assets\Monaco\min\vs\editor\editor.main.nls.zh-cn.js" />
+      <None Remove="Assets\Monaco\min\vs\editor\editor.main.nls.zh-tw.js" />
+      <None Remove="Assets\Monaco\min\vs\loader.js" />
+      <None Remove="Assets\octonaut.jpg" />
+      <None Remove="Assets\pexels-johannes-plenio-1103970.jpg" />
+      <None Remove="Assets\WinUiGallery\Button.png" />
+      <None Remove="Assets\WinUiGallery\Flyout.png" />
+      <None Remove="Assets\WinUiGallery\LICENSE" />
+      <None Remove="Assets\WinUiGallery\MenuBar.png" />
+      <None Remove="Assets\wpfui.png" />
+      <None Remove="Assets\wpfui_full.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="Assets\Monaco\index.html">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Assets\Monaco\min\vs\editor\editor.main.css">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Assets\Monaco\min\vs\editor\editor.main.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Assets\Monaco\min\vs\editor\editor.main.nls.de.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Assets\Monaco\min\vs\editor\editor.main.nls.es.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Assets\Monaco\min\vs\editor\editor.main.nls.fr.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Assets\Monaco\min\vs\editor\editor.main.nls.it.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Assets\Monaco\min\vs\editor\editor.main.nls.ja.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Assets\Monaco\min\vs\editor\editor.main.nls.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Assets\Monaco\min\vs\editor\editor.main.nls.ko.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Assets\Monaco\min\vs\editor\editor.main.nls.ru.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Assets\Monaco\min\vs\editor\editor.main.nls.zh-cn.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Assets\Monaco\min\vs\editor\editor.main.nls.zh-tw.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Assets\Monaco\min\vs\loader.js">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
       <Page Include="App.xaml" />
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\Jamesnet.Windows\Jamesnet.Windows.csproj" />
         <ProjectReference Include="..\MG.Common\Daniel.Common.csproj" />
+        <ProjectReference Include="..\NP.Home\NP.Home.csproj" />
         <ProjectReference Include="..\NP.Main\NP.Main.csproj" />
         <ProjectReference Include="..\NP.Menu\NP.Menu.csproj" />
         <ProjectReference Include="..\NP.Support\NP.Support.csproj" />
         <ProjectReference Include="..\NP.Task1\NP.Task1.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <Resource Include="Assets\geo_icons.png" />
+      <Resource Include="Assets\octonaut.jpg" />
+      <Resource Include="Assets\pexels-johannes-plenio-1103970.jpg" />
+      <Resource Include="Assets\WinUiGallery\Button.png" />
+      <Resource Include="Assets\WinUiGallery\Flyout.png" />
+      <Resource Include="Assets\WinUiGallery\LICENSE" />
+      <Resource Include="Assets\WinUiGallery\MenuBar.png" />
+      <Resource Include="Assets\wpfui.png" />
+      <Resource Include="Assets\wpfui_full.png" />
     </ItemGroup>
     
 </Project>

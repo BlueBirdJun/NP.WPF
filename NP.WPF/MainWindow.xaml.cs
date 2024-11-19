@@ -16,10 +16,15 @@ namespace NP.WPF;
 /// <summary>
 /// MainWindow.xaml에 대한 상호 작용 논리
 /// </summary>
-public partial class MainWindow : Window
+public partial class MainWindow : IWindow
 {
 	public MainWindow()
 	{
 		InitializeComponent();
+	}
+	private bool _isUserClosedPane;
+	private void MainWindow_OnSizeChanged(object sender, SizeChangedEventArgs e)
+	{
+	 
 	}
 }
